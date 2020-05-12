@@ -10,26 +10,36 @@
 - [ci/cd](https://travis-ci.com/github/yousef-401-advanced-javascript/lab-00) 
 - [front-end application](https://digimon123.herokuapp.com/) 
 
+### Documentation
+[jsdoc](https://digimon123.herokuapp.com/docs/)
+
+### Modules
+#### `pol.js`
+##### EXported Values and Methods
+
+##### `isAlive(dead) ->boolean`
+return true/false to indicate how the server works
+
 ### Setup
+#### `.env` requirements
 
-#### `.env` requirements (where applicable)
+- `PORT` - 3000
 
-i.e.
 
-- `PORT` - Port Number
-- `MONGODB_URI` - URL to the running mongo instance/db
+#### How to initialize/run your application
 
-#### How to initialize/run your application (where applicable)
+- `npm start`
+- Endpoint: `/`
+  - Return a boolean
+- Endpoint: `/docs`
+  - Return JSDoc
 
-- e.g. `npm start`
-
-#### How to use your library (where applicable)
+#### How to use your library
 
 #### Tests
 
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+- Unit Tests: `npm run test`
+- Lint Tests: `npm run lint`
 
 #### UML
 
